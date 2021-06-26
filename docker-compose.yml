@@ -1,0 +1,18 @@
+version: "3"
+services:
+    frontend:
+        container_name: impulse_client
+        build:
+            context: ./client
+            dockerfile: Dockerfile
+        image: impulseincome/client
+        ports:
+            - "80:3000"
+    backend:
+        container_name: impulse_server
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: impulseincome/server
+        ports:
+            - "5000:5000"
