@@ -20,7 +20,7 @@ const Display236a = () => {
 
     const interval=setInterval (() => {
       getSlots()
-    }, 2000)
+    }, 500)
     return()=>clearInterval(interval)
   }, []);
   return (
@@ -32,7 +32,7 @@ const Display236a = () => {
             <>
             <div key={_id}>
             <div className="slot">
-            <div className="slot"><img src={game} alt="Game not found..."></img></div>
+            <div className="slot"><img src={`${process.env.PUBLIC_URL}/cards/${game}.png`} alt="game not found..." /></div>
             <div className="slot-id"><p>{id}</p></div>
             <div className="slot-size"><p>Ticket#{size}</p></div>
             </div>

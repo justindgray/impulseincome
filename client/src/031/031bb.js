@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import BrandBuilders from '../components/BrandBuilders';
 
 import '../components/css/display2.css';
-import '../components/css/slideshow.css';
 
 const url = 'http://107.191.45.141:5000/031/display2/';
 
@@ -22,7 +21,7 @@ const BrandBuilder031 = () => {
 
     const interval=setInterval (() => {
       getSlots()
-    }, 2000)
+    }, 500)
     return()=>clearInterval(interval)
   }, []);
   return (
@@ -35,7 +34,7 @@ const BrandBuilder031 = () => {
          <div key={_id}>
              <div className="slot">
             <div className="slot">
-            <div className="slot"><img src={game} alt="Game not found..."></img></div>
+            <div className="slot"><img src={`${process.env.PUBLIC_URL}/cards/${game}.png`} alt="game not found..." /></div>
             <div className="slot-id"><p>{id}</p></div>
             <div className="slot-size"><p>Ticket#{size}</p></div>
             </div>

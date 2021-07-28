@@ -1,6 +1,6 @@
 @charset "UTF-8";
  body {
-	background-color: #00ADD9;
+	background-color: #002984;
 	margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
@@ -20,7 +20,7 @@
 	margin-right: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background-color: #00ADD9;
+	background-color: #002984;
 }
 .dashboard-container {
 	display: inline-grid;
@@ -35,11 +35,7 @@
 	margin-right: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background-color: #00ADD9;
-}
-.dashboard-img {
-	width: 192px;
-	height: 180px;
+	background-color: #002984;
 }
 .slot {
 	margin:0;
@@ -66,63 +62,13 @@
 	margin-top: 0;
 	position: absolute;
 	text-align: center;
-	font-size: 4.5em;
+	font-size: 4em;
 	font-weight: 300;
 	font-family: Lilita One;
 	color: aliceblue;
 	background-color: rgba(0,0,0,0.70);
-	top: 300px;
-	left: 75px;
+	top: 280px;
+	left: 40px;
 	text-shadow: 5px 5px 5px #000000;
 	
-}
-
-.form .form-group {
-	margin: 1.2rem 0;
-	display: inline-block;
-  }
-  
-  .form .form-text {
-	display: inline-block;
-	margin-top: 0.3rem;
-	color: #888;
-  }
-  
-  .form input[type='text'],
-  .form input[type='email'],
-  .form input[type='password'],
-  .form input[type='date'],
-  .form select,
-  .form textarea {
-	display: inline-block;
-	width: 100%;
-	padding: 0.4rem;
-	font-size: 1.2rem;
-	border: 1px solid #ccc;
-  }
-  
-  .form input[type='submit'],
-  button {
-	font: inherit;
-  }
-
-  .btn {
-	display: inline-block;
-	background: var(--light-color);
-	color: #333;
-	padding: 0.4rem 1.3rem;
-	font-size: 1rem;
-	border: none;
-	cursor: pointer;
-	margin-right: 0.5rem;
-	transition: opacity 0.2s ease-in;
-	outline: none;
-  }
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
 }

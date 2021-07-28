@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-//import { makeStyles } from '@material-ui/core/styles';
 import { Button } from '@material-ui/core';
 
 import '../components/css/dashboard.css';
@@ -9,8 +8,8 @@ const Dashboard236 = () => {
  return (
             <>
                             
-                            <div className="display1container">
-                            <div className="dashboard"><Button id='button01' variant="contained" color="primary" size="Large" textSize="Large" onClick={() => 
+                            <div className="dashboardcontainer">
+                            <div className="dashboard"><Button variant="contained" color="primary" size="Large" textSize="Large" onClick={() => 
                               axios.put(`http://107.191.45.141:5000/236/display1/updateSize/01`)}>
                             <div className="slot-id"><h1>  01 </h1></div> 
                             </Button></div>
