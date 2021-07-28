@@ -12,6 +12,7 @@ import BrandBuilder236 from './236/236bb';
 import Dashboard236 from './236/236dash';
 import Scan236 from '../src/236/236scan';
 import Edit236 from '../src/236/236edit';
+import ServicesBB from '../src/236/ServicesBB';
 
 
 //031 Routes//
@@ -36,6 +37,7 @@ const App = () => {
           <Route path='/236/dashboard' exact component ={Dashboard236} />
           <Route path='/236/scan' exact component ={Scan236} />
           <Route path='/236/edit' exact component ={Edit236} />
+          <Route path='/236/services' exact component={ServicesBB} />
 
 
           <Route path='/031/1' exact component ={Display031a} />   
